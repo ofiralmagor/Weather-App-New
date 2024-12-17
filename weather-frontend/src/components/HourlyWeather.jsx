@@ -4,6 +4,7 @@ import './HourlyWeather.css';
 
 const HourlyWeather = ({ city, getWeatherIcon }) => {
     const backendHost = import.meta.env.VITE_BACKEND_HOST;
+    console.log("Backend Host in HourlyWeather:", backendHost);
 
     const [hourlyData, setHourlyData] = useState([]);
     const [error, setError] = useState('');

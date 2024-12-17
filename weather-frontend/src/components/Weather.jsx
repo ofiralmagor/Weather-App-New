@@ -16,6 +16,7 @@ const Weather = () => {
     const [showInput, setShowInput] = useState(false);
 
     const backendHost = import.meta.env.VITE_BACKEND_HOST;
+    console.log("Backend Host:", backendHost);
     
     const fetchWeather = async (cityName) => {
         setLoading(true);
