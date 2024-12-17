@@ -31,7 +31,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
-weather-backend/.env
 weather-frontend/.env
 
 
