@@ -3,7 +3,7 @@ import axios from 'axios';
 import './HourlyWeather.css';
 
 const HourlyWeather = ({ city, getWeatherIcon }) => {
-    const backendHost = process.env.VITE_BACKEND_HOST;
+    const backendHost = import.meta.env.VITE_BACKEND_HOST;
 
     const [hourlyData, setHourlyData] = useState([]);
     const [error, setError] = useState('');
