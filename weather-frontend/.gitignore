@@ -30,7 +30,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-backend/.env
-frontend/.env
+weather-backend/.env
+weather-frontend/.env
 
 
