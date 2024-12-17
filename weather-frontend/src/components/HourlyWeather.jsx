@@ -3,8 +3,8 @@ import axios from 'axios';
 import './HourlyWeather.css';
 
 const HourlyWeather = ({ city, getWeatherIcon }) => {
-    const backendHost = process.env.VITE_BACKEND_HOST || 'http://localhost:3000';
-    
+    const backendHost = process.env.VITE_BACKEND_HOST;
+
     const [hourlyData, setHourlyData] = useState([]);
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
