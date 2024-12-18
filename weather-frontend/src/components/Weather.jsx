@@ -59,6 +59,7 @@ const Weather = () => {
             'extreme rain': 'bi bi-cloud-rain-heavy',
             'dust': 'bi bi-tornado',
             'moderate rain': 'bi bi-cloud-drizzle',
+            'light snow': 'bi bi-cloud-snow',
         };
         return iconMap[description] || 'bi bi-question-circle';
     };
